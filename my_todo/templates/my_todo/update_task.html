@@ -1,0 +1,7 @@
+<h3>Here you can change your task</h3>
+
+<form method="POST" action="">
+	{% csrf_token %}
+	{{ form }}
+	<input type="submit" name="Change Task">
+</form>
